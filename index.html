@@ -4,37 +4,450 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram_ChongLynk</title>
+    <script src="https://kit.fontawesome.com/091518fd46.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./layer.css" type="text/css">
     <link rel="stylesheet" href="./header.css" type="text/css">
     <link rel="stylesheet" href="./search.css" type="text/css">
     <link rel="stylesheet" href="./taskbar.css" type="text/css">
     <link rel="stylesheet" href="./news-24h.css" type="text/css">
     <link rel="stylesheet" href="./newFeed.css" type="text/css">
+    <link rel="stylesheet" href="./frends-suggestion.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/091518fd46.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
-    <div class="container-3">
-        <div class="title-newfeed">
-            
-                <a href="#"><img class="avatar-1" src="./img/ava1.jpg" alt="avatar"></a>
-                <a href="#"><div class="text-newfeed">
-                    <div>xanhmuot.offical</div>
-                    <div>Ho Chi Minh City, VietNam</div>
-                </div></a>
-                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
-                
-            
-        </div>
-        <img src="./img/nf-1.jpg" alt="img" class="img-content">
-        <div class="text-content">
-            <div class="icon-action"></div>
-            <div class="liked"></div>
-            <div class="hastag"></div>
-            <div class="time-upload"></div>
-            <div class="cmt"></div>
+    <div class="container">
+        <!--phan header cua page-->
+        <div class="header">
+            <div class="title"> Instagram </div>
+            <div class="container-1">
+                <i class="fas fa-search"></i>
+                <input type="search" placeholder="search" class="textInput">
+            </div>
+            <div class="taskbar">
+                <a href="#"><i class="fas fa-home"></i></a>
+                <a href="#"> <i class="far fa-paper-plane"></i></a>
+                <a href="#"><i class="fas fa-compass"></i></a>
+                <a href="#"><i class="far fa-heart"></i></a>
+                <img class="avatar" id="avatar" src="./img/ava1.jpg" alt="avatar">
+            </div>
 
         </div>
+        <!--phan can le trai layout cua page-->
+       <div class="margin-left"></div>
+       <!--phan main cua page-->
+        <div class="main">
+            <!--cac ban tin 24h-->
+            <div class="fr-news-24h">
+                <div class="container-2">
+                    <div class="news-detail">
+                        <img class="avatar" src="./img/ava1.jpg" alt="avatar">
+                    </div>
+                    <div>Lym Lym</div>
+                </div>
+                <div class="container-2">
+                    <div class="news-detail">
+                        <img class="avatar" src="./img/ava1.jpg" alt="avatar">
+                    </div>
+                    <div>Lym Lym</div>
+                </div>
+                <div class="container-2">
+                    <div class="news-detail">
+                        <img class="avatar" src="./img/ava1.jpg" alt="avatar">
+                    </div>
+                    <div>Lym Lym</div>
+                </div>
+                <div class="container-2">
+                    <div class="news-detail">
+                        <img class="avatar" src="./img/ava1.jpg" alt="avatar">
+                    </div>
+                    <div>Lym Lym</div>
+                </div>
+                <div class="container-2">
+                    <div class="news-detail">
+                        <img class="avatar" src="./img/ava1.jpg" alt="avatar">
+                    </div>
+                    <div>Lym Lym</div>
+                </div>
+            </div>
+            <!-- newfeed-->
+            <div class="fr-newfeed">
+                <div class="container-3">
+                    <div class="title-newfeed">
+                        
+                            <a href="#"><img class="avatar-1" src="./img/ava1.jpg" alt="avatar"></a>
+                            <a href="#"><div class="text-newfeed">
+                                <div>xanhmuot.offical</div>
+                                <div>Ho Chi Minh City, VietNam</div>
+                            </div></a>
+                            <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                            
+                        
+                    </div>
+                    <img src="./img/nf-1.jpg" alt="img" class="img-content">
+                    <div class="text-content">
+                        <div class="icon-action">
+                            <a href="#"><i class="far fa-heart"></i></a>
+                            <a href="#"><i class="far fa-comment"></i></a>
+                            <a href="#"><i class="far fa-paper-plane"></i></a>
+                            <a href="#"><i class="far fa-bookmark"></i></a>
+                        </div>
+                        <div class="liked">ChongLynk và LymLym đã thích</div>
+                        <div class="hastag">
+                            Follow:<div class="hastagName">#Quotesvn #VnQuotes #tríchdẫn #thanhxuan #buồn #nhớ #thanhxuân #trichdanhay #trichdan #trichdanphim #yêu #congai #tamtrang #ngontinh
+                            #vietnam #tinhyeu #buon #vietquote #vietquotes #saigon #hanoi #hanoifood #saigonfood #thương #quoteshay #quotestonghop #nắng #quotesviet
+                            </div>
+                        </div>
+                        <div class="time-upload">20 giờ trước</div>
+                        <div class="cmt">
+                            <input type="text" placeholder="Thêm bình luận" class="text-cmt">
+                            <a href="#" >Đăng</a>
+                        </div>
+                
+                    </div>
+                </div>
+                <div class="container-3">
+                    <div class="title-newfeed">
+                        
+                            <a href="#"><img class="avatar-1" src="./img/ava1.jpg" alt="avatar"></a>
+                            <a href="#"><div class="text-newfeed">
+                                <div>xanhmuot.offical</div>
+                                <div>Ho Chi Minh City, VietNam</div>
+                            </div></a>
+                            <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                            
+                        
+                    </div>
+                    <img src="./img/nf-1.jpg" alt="img" class="img-content">
+                    <div class="text-content">
+                        <div class="icon-action">
+                            <a href="#"><i class="far fa-heart"></i></a>
+                            <a href="#"><i class="far fa-comment"></i></a>
+                            <a href="#"><i class="far fa-paper-plane"></i></a>
+                            <a href="#"><i class="far fa-bookmark"></i></a>
+                        </div>
+                        <div class="liked">ChongLynk và LymLym đã thích</div>
+                        <div class="hastag">
+                            Follow:<div class="hastagName">#Quotesvn #VnQuotes #tríchdẫn #thanhxuan #buồn #nhớ #thanhxuân #trichdanhay #trichdan #trichdanphim #yêu #congai #tamtrang #ngontinh
+                            #vietnam #tinhyeu #buon #vietquote #vietquotes #saigon #hanoi #hanoifood #saigonfood #thương #quoteshay #quotestonghop #nắng #quotesviet
+                            </div>
+                        </div>
+                        <div class="time-upload">20 giờ trước</div>
+                        <div class="cmt">
+                            <input type="text" placeholder="Thêm bình luận" class="text-cmt">
+                            <a href="#" >Đăng</a>
+                        </div>
+                
+                    </div>
+                </div>
+                <div class="container-3">
+                    <div class="title-newfeed">
+                        
+                            <a href="#"><img class="avatar-1" src="./img/ava1.jpg" alt="avatar"></a>
+                            <a href="#"><div class="text-newfeed">
+                                <div>xanhmuot.offical</div>
+                                <div>Ho Chi Minh City, VietNam</div>
+                            </div></a>
+                            <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                            
+                        
+                    </div>
+                    <img src="./img/nf-1.jpg" alt="img" class="img-content">
+                    <div class="text-content">
+                        <div class="icon-action">
+                            <a href="#"><i class="far fa-heart"></i></a>
+                            <a href="#"><i class="far fa-comment"></i></a>
+                            <a href="#"><i class="far fa-paper-plane"></i></a>
+                            <a href="#"><i class="far fa-bookmark"></i></a>
+                        </div>
+                        <div class="liked">ChongLynk và LymLym đã thích</div>
+                        <div class="hastag">
+                            Follow:<div class="hastagName">#Quotesvn #VnQuotes #tríchdẫn #thanhxuan #buồn #nhớ #thanhxuân #trichdanhay #trichdan #trichdanphim #yêu #congai #tamtrang #ngontinh
+                            #vietnam #tinhyeu #buon #vietquote #vietquotes #saigon #hanoi #hanoifood #saigonfood #thương #quoteshay #quotestonghop #nắng #quotesviet
+                            </div>
+                        </div>
+                        <div class="time-upload">20 giờ trước</div>
+                        <div class="cmt">
+                            <input type="text" placeholder="Thêm bình luận" class="text-cmt">
+                            <a href="#" >Đăng</a>
+                        </div>
+                
+                    </div>
+                </div>
+                <div class="container-3">
+                    <div class="title-newfeed">
+                        
+                            <a href="#"><img class="avatar-1" src="./img/ava1.jpg" alt="avatar"></a>
+                            <a href="#"><div class="text-newfeed">
+                                <div>xanhmuot.offical</div>
+                                <div>Ho Chi Minh City, VietNam</div>
+                            </div></a>
+                            <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                            
+                        
+                    </div>
+                    <img src="./img/nf-1.jpg" alt="img" class="img-content">
+                    <div class="text-content">
+                        <div class="icon-action">
+                            <a href="#"><i class="far fa-heart"></i></a>
+                            <a href="#"><i class="far fa-comment"></i></a>
+                            <a href="#"><i class="far fa-paper-plane"></i></a>
+                            <a href="#"><i class="far fa-bookmark"></i></a>
+                        </div>
+                        <div class="liked">ChongLynk và LymLym đã thích</div>
+                        <div class="hastag">
+                            Follow:<div class="hastagName">#Quotesvn #VnQuotes #tríchdẫn #thanhxuan #buồn #nhớ #thanhxuân #trichdanhay #trichdan #trichdanphim #yêu #congai #tamtrang #ngontinh
+                            #vietnam #tinhyeu #buon #vietquote #vietquotes #saigon #hanoi #hanoifood #saigonfood #thương #quoteshay #quotestonghop #nắng #quotesviet
+                            </div>
+                        </div>
+                        <div class="time-upload">20 giờ trước</div>
+                        <div class="cmt">
+                            <input type="text" placeholder="Thêm bình luận" class="text-cmt">
+                            <a href="#" >Đăng</a>
+                        </div>
+                
+                    </div>
+                </div>
+                <div class="container-3">
+                    <div class="title-newfeed">
+                        
+                            <a href="#"><img class="avatar-1" src="./img/ava1.jpg" alt="avatar"></a>
+                            <a href="#"><div class="text-newfeed">
+                                <div>xanhmuot.offical</div>
+                                <div>Ho Chi Minh City, VietNam</div>
+                            </div></a>
+                            <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                            
+                        
+                    </div>
+                    <img src="./img/nf-1.jpg" alt="img" class="img-content">
+                    <div class="text-content">
+                        <div class="icon-action">
+                            <a href="#"><i class="far fa-heart"></i></a>
+                            <a href="#"><i class="far fa-comment"></i></a>
+                            <a href="#"><i class="far fa-paper-plane"></i></a>
+                            <a href="#"><i class="far fa-bookmark"></i></a>
+                        </div>
+                        <div class="liked">ChongLynk và LymLym đã thích</div>
+                        <div class="hastag">
+                            Follow:<div class="hastagName">#Quotesvn #VnQuotes #tríchdẫn #thanhxuan #buồn #nhớ #thanhxuân #trichdanhay #trichdan #trichdanphim #yêu #congai #tamtrang #ngontinh
+                            #vietnam #tinhyeu #buon #vietquote #vietquotes #saigon #hanoi #hanoifood #saigonfood #thương #quoteshay #quotestonghop #nắng #quotesviet
+                            </div>
+                        </div>
+                        <div class="time-upload">20 giờ trước</div>
+                        <div class="cmt">
+                            <input type="text" placeholder="Thêm bình luận" class="text-cmt">
+                            <a href="#" >Đăng</a>
+                        </div>
+                
+                    </div>
+                </div>
+                <div class="container-3">
+                    <div class="title-newfeed">
+                        
+                            <a href="#"><img class="avatar-1" src="./img/ava1.jpg" alt="avatar"></a>
+                            <a href="#"><div class="text-newfeed">
+                                <div>xanhmuot.offical</div>
+                                <div>Ho Chi Minh City, VietNam</div>
+                            </div></a>
+                            <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                            
+                        
+                    </div>
+                    <img src="./img/nf-1.jpg" alt="img" class="img-content">
+                    <div class="text-content">
+                        <div class="icon-action">
+                            <a href="#"><i class="far fa-heart"></i></a>
+                            <a href="#"><i class="far fa-comment"></i></a>
+                            <a href="#"><i class="far fa-paper-plane"></i></a>
+                            <a href="#"><i class="far fa-bookmark"></i></a>
+                        </div>
+                        <div class="liked">ChongLynk và LymLym đã thích</div>
+                        <div class="hastag">
+                            Follow:<div class="hastagName">#Quotesvn #VnQuotes #tríchdẫn #thanhxuan #buồn #nhớ #thanhxuân #trichdanhay #trichdan #trichdanphim #yêu #congai #tamtrang #ngontinh
+                            #vietnam #tinhyeu #buon #vietquote #vietquotes #saigon #hanoi #hanoifood #saigonfood #thương #quoteshay #quotestonghop #nắng #quotesviet
+                            </div>
+                        </div>
+                        <div class="time-upload">20 giờ trước</div>
+                        <div class="cmt">
+                            <input type="text" placeholder="Thêm bình luận" class="text-cmt">
+                            <a href="#" >Đăng</a>
+                        </div>
+                
+                    </div>
+                </div>
+                <div class="container-3">
+                    <div class="title-newfeed">
+                        
+                            <a href="#"><img class="avatar-1" src="./img/ava1.jpg" alt="avatar"></a>
+                            <a href="#"><div class="text-newfeed">
+                                <div>xanhmuot.offical</div>
+                                <div>Ho Chi Minh City, VietNam</div>
+                            </div></a>
+                            <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                            
+                        
+                    </div>
+                    <img src="./img/nf-1.jpg" alt="img" class="img-content">
+                    <div class="text-content">
+                        <div class="icon-action">
+                            <a href="#"><i class="far fa-heart"></i></a>
+                            <a href="#"><i class="far fa-comment"></i></a>
+                            <a href="#"><i class="far fa-paper-plane"></i></a>
+                            <a href="#"><i class="far fa-bookmark"></i></a>
+                        </div>
+                        <div class="liked">ChongLynk và LymLym đã thích</div>
+                        <div class="hastag">
+                            Follow:<div class="hastagName">#Quotesvn #VnQuotes #tríchdẫn #thanhxuan #buồn #nhớ #thanhxuân #trichdanhay #trichdan #trichdanphim #yêu #congai #tamtrang #ngontinh
+                            #vietnam #tinhyeu #buon #vietquote #vietquotes #saigon #hanoi #hanoifood #saigonfood #thương #quoteshay #quotestonghop #nắng #quotesviet
+                            </div>
+                        </div>
+                        <div class="time-upload">20 giờ trước</div>
+                        <div class="cmt">
+                            <input type="text" placeholder="Thêm bình luận" class="text-cmt">
+                            <a href="#" >Đăng</a>
+                        </div>
+                
+                    </div>
+                </div>
+                <div class="container-3">
+                    <div class="title-newfeed">
+                        
+                            <a href="#"><img class="avatar-1" src="./img/ava1.jpg" alt="avatar"></a>
+                            <a href="#"><div class="text-newfeed">
+                                <div>xanhmuot.offical</div>
+                                <div>Ho Chi Minh City, VietNam</div>
+                            </div></a>
+                            <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                            
+                        
+                    </div>
+                    <img src="./img/nf-1.jpg" alt="img" class="img-content">
+                    <div class="text-content">
+                        <div class="icon-action">
+                            <a href="#"><i class="far fa-heart"></i></a>
+                            <a href="#"><i class="far fa-comment"></i></a>
+                            <a href="#"><i class="far fa-paper-plane"></i></a>
+                            <a href="#"><i class="far fa-bookmark"></i></a>
+                        </div>
+                        <div class="liked">ChongLynk và LymLym đã thích</div>
+                        <div class="hastag">
+                            Follow:<div class="hastagName">#Quotesvn #VnQuotes #tríchdẫn #thanhxuan #buồn #nhớ #thanhxuân #trichdanhay #trichdan #trichdanphim #yêu #congai #tamtrang #ngontinh
+                            #vietnam #tinhyeu #buon #vietquote #vietquotes #saigon #hanoi #hanoifood #saigonfood #thương #quoteshay #quotestonghop #nắng #quotesviet
+                            </div>
+                        </div>
+                        <div class="time-upload">20 giờ trước</div>
+                        <div class="cmt">
+                            <input type="text" placeholder="Thêm bình luận" class="text-cmt">
+                            <a href="#" >Đăng</a>
+                        </div>
+                
+                    </div>
+                </div>
+                
+            
+                
+
+                
+            </div>
+        </div>
+        <!-- goi y follow ban be-->
+        <div class="taskbar-right">
+            <div class="friends-suggestion">
+                <div class="info">
+                     <img class="avatar" src="./img/ava1.jpg" alt="avatar">
+                     <div class="name-info">
+                         <div>ChongLynk</div>
+                         <div class="realName">Trong Linh</div>
+                     </div>
+                     
+                </div>
+                <div class="sugg-title">
+                     <span>Gợi ý cho bạn</span> 
+                     <div id="title-right">Xem tất cả</div>
+                     
+                </div>
+                 <div class="add-fr">
+                     <img class="avatar" src="./img/ava1.jpg" alt="avatar">
+                     
+                         <div class="name-info">
+                             <div class="name">uyen.coffe</div>
+                             <div class="followBy realName">Follow by tamquy999</div>
+                         </div>
+                         
+                         <div class="follow">Theo dõi</div>
+                     
+                 </div>    
+                
+                <div class="add-fr">
+                    <img class="avatar" src="./img/ava1.jpg" alt="avatar">
+                    
+                        <div class="name-info">
+                            <div class="name">uyen.coffe</div>
+                            <div class="followBy realName">Follow by tamquy999</div>
+                        </div>
+                        
+                        <div class="follow">Theo dõi</div>
+                    
+                </div>    
+                
+                <div class="add-fr">
+                    <img class="avatar" src="./img/ava1.jpg" alt="avatar">
+                    
+                        <div class="name-info">
+                            <div class="name">uyen.coffe</div>
+                            <div class="followBy realName">Follow by tamquy999</div>
+                        </div>
+                        
+                        <div class="follow">Theo dõi</div>
+                    
+                </div>    
+               
+                <div class="add-fr">
+                    <img class="avatar" src="./img/ava1.jpg" alt="avatar">
+                    
+                        <div class="name-info">
+                            <div class="name">uyen.coffe</div>
+                            <div class="followBy realName">Follow by tamquy999</div>
+                        </div>
+                        
+                        <div class="follow">Theo dõi</div>
+                    
+                </div>    
+                
+                <div class="add-fr">
+                    <img class="avatar" src="./img/ava1.jpg" alt="avatar">
+                    
+                        <div class="name-info">
+                            <div class="name">uyen.coffe</div>
+                            <div class="followBy realName">Follow by tamquy999</div>
+                        </div>
+                        
+                        <div class="follow">Theo dõi</div>
+                    
+                </div>    
+                
+                <div class="add-fr">
+                    <img class="avatar" src="./img/ava1.jpg" alt="avatar">
+                    
+                        <div class="name-info">
+                            <div class="name">uyen.coffe</div>
+                            <div class="followBy realName">Follow by tamquy999</div>
+                        </div>
+                        
+                        <div class="follow">Theo dõi</div>
+                    
+                </div>    
+                 
+                
+            </div>
+        </div>
+        <div class="margin-right"></div>
+    
+        
     </div>
+   
+
     
     
 </body>

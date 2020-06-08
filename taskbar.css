@@ -1,9 +1,15 @@
 .taskbar{
-    font-size: 22px;
-    
+    font-size: 30px;
+    margin-left: 8%;
 }
-
+#avatar{
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 22px;
+}
 .taskbar a{
     color: #000000;
     padding-left: 22px;
+    
 }

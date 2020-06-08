@@ -1,0 +1,50 @@
+.friends-suggestion{
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 104px;
+    margin-left: 24px;
+    
+}
+.info{
+    display: flex;
+    padding-left: 5px;
+    margin-bottom: 48px;
+}
+.info img{
+    width: 56px;
+    height: 56px;
+}
+.name-info{
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sugg-title{
+    margin-top: 12px;
+   
+}
+#title-right{
+    float: right;
+}
+.add-fr{
+    display: flex;
+    position: relative;
+    padding: 8px 16px;
+}
+.follow{
+    position: absolute;
+    right: 0;
+    top: 24px;
+    color: rgb(0, 149, 246);
+    cursor: pointer;
+}
+.add-fr img{
+    width: 34px;
+    height: 34px;
+}
+.realName{
+    color: rgb(142, 142, 142);
+}

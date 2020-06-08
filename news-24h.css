@@ -3,6 +3,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
+}
+.container-2 div:last-child{
+    color: rgb(88, 80, 80);
 }
 .news-detail{
     width: 64px;
@@ -18,4 +22,14 @@
     width: 58px;
     height: 58px;
     border-radius: 50%;
+}
+.fr-news-24h{
+    height: 116px;
+    background-color:#ffffff;
+    display: flex;
+    margin: 78px 0px 24px 0px;
+    border:  1px solid rgba(var(--b6a,219,219,219),1);
+}
+.container-2{
+    padding: 15px;
 }

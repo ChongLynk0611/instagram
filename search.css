@@ -5,8 +5,10 @@
     border: 1px solid #000000;
     height: 28px;
     width: 250px;
+    margin-top: 10px;
+   
 }
-.search-btn{
+.fa-search{
     position: absolute;
     left: 3px;
     top:6px

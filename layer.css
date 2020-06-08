@@ -1,0 +1,31 @@
+body{
+    background-color: #fafafa;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+}
+.header{
+    display: flex;
+    grid-column: 1/5;
+    background-color:#ffffff;
+    height: 54px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 5;
+    border:  1px solid rgba(var(--b6a,219,219,219),1);
+ 
+}
+
+@media (max-width:1256px){
+    .taskbar-right{
+        display: none;
+    }
+    .taskbar{
+        display: none;
+    }
+}
